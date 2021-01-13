@@ -20,6 +20,9 @@ const InnerBounds = styled.div`
     flex-direction: column;
     justify-content: space-between;
 
+    @media (min-width: 1024px) {
+        flex-direction: row;
+      }
 `;
 
 const IntroBounds = styled.div`
@@ -32,6 +35,12 @@ const IntroBounds = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+
+        height: 100%;
+        width: 100%;
+      }
 `;
 
 const CredentialsBounds = styled.div`

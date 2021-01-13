@@ -21,6 +21,10 @@ const Name = styled.p`
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;  
+
+    @media (min-width: 1024px) {
+        font-size: 54px;
+      }
 `;
 
 const Occupation = styled.p`
@@ -31,25 +35,30 @@ const Occupation = styled.p`
     text-align: center;
     margin-top: 0px;
     margin-bottom: 10px;
+
+
+    @media (min-width: 1024px) {
+        font-size: 32px;
+      }
 `;
 
 const GitHubIcon = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   &:hover {
     filter: invert(0.4);
   }
 `;
 const LinkedinIcon = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   &:hover {
     filter: invert(0.4);
   }
 `;
 const DribbbleIcon = styled.img`
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   &:hover {
     filter: invert(0.4);
   }
@@ -62,6 +71,11 @@ const SocialContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   background: #FFACAC;
+
+  @media (min-width: 1024px) {
+    width: 240px;
+    height: 40px;
+  }
 `;
 
 function Intro() {
