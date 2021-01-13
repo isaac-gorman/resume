@@ -1,10 +1,10 @@
 import './App.css';
 import Intro from './Components/Intro'
-
+import PageContainer from './Components/PageContainer'
 function App() {
   return (
     <div className="App">
-     <Intro/>
+      <PageContainer/>
     </div>
   );
 }
