@@ -5,10 +5,22 @@ import Dribbble from './Assets/Dribbble.svg'
 import Linkedin from './Assets/Linkedin.svg'
 import './Intro.css';
 
+const IntroWrap = styled.div`
+    margin: 0px auto;
+    background: #F2C94C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
 const Name = styled.p`
     font-family: 'medium';
     font-weight: normal;
-    font-size: 24px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;  
 `;
 
 const Occupation = styled.p`
@@ -16,40 +28,53 @@ const Occupation = styled.p`
     font-weight: normal;
     font-size: 14px;
     color: #828282;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
 `;
 
 const GitHubIcon = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
   }
 `;
 const LinkedinIcon = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
   }
 `;
 const DribbbleIcon = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
   }
 `;
 
+const SocialContainer = styled.div`
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFACAC;
+`;
+
 function Intro() {
     return(
-        <div>
+        <IntroWrap>
             <Name>Isaac Gorman</Name>
             <Occupation>Designer | Studnet</Occupation>
-            {/* I need to add the three svg links */}
-            <GitHubIcon src={Git} alt="nan" /> 
-            <LinkedinIcon src={Linkedin} alt="nan" /> 
-            <DribbbleIcon src={Dribbble} alt="nan" /> 
-        </div>
+            <SocialContainer>
+                <GitHubIcon src={Git} alt="nan" /> 
+                <LinkedinIcon src={Linkedin} alt="nan" /> 
+                <DribbbleIcon src={Dribbble} alt="nan" />    
+            </SocialContainer>
+        </IntroWrap>
     )
 }
 

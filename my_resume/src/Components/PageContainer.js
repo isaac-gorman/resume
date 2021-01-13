@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
+import Intro from "./Intro"
 
 const PageWrapper = styled.div`
     height: 100vh;
@@ -11,6 +12,7 @@ const PageWrapper = styled.div`
 `;
 
 const InnerBounds = styled.div`
+    margin: 0px auto;
     height: 85vh;
     width: 85vw;
     background: #FFECEC;
@@ -21,9 +23,15 @@ const InnerBounds = styled.div`
 `;
 
 const IntroBounds = styled.div`
+    margin: 0px auto;
     height: 35%;
     width: 100%;
     background: #FFD6D6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 const CredentialsBounds = styled.div`
@@ -37,7 +45,7 @@ function PageConatiner() {
         <PageWrapper>
             <InnerBounds>
              <IntroBounds>
-        {/* Intro */}
+                <Intro/>
              </IntroBounds>
         {/* Credentials */}
              <CredentialsBounds>
