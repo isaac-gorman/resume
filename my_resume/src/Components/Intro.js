@@ -43,24 +43,36 @@ const Occupation = styled.p`
 `;
 
 const GitHubIcon = styled.img`
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
+  }
+    @media (min-width: 1024px) {
+    width: 34px;
+    height: 34px;
   }
 `;
 const LinkedinIcon = styled.img`
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
   }
+    @media (min-width: 1024px) {
+    width: 34px;
+    height: 34px;
+  }
 `;
 const DribbbleIcon = styled.img`
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   &:hover {
     filter: invert(0.4);
+  }
+    @media (min-width: 1024px) {
+    width: 34px;
+    height: 34px;
   }
 `;
 
@@ -73,7 +85,7 @@ const SocialContainer = styled.div`
   background: #FFACAC;
 
   @media (min-width: 1024px) {
-    width: 240px;
+    width: 200px;
     height: 40px;
   }
 `;

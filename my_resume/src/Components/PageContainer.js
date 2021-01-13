@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import Intro from "./Intro"
+import Accordion from "./Credentials/Accordion"
 
 const PageWrapper = styled.div`
     height: 100vh;
@@ -46,7 +47,15 @@ const IntroBounds = styled.div`
 const CredentialsBounds = styled.div`
     height: 60%;
     width: 100%;
-    background: #FFD6D6;
+    background: #56CCF2;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+
+        height: 100%;
+        width: 100%;
+        background: #56CCF2;
+      }
 `;
 
 function PageConatiner() {
@@ -56,9 +65,8 @@ function PageConatiner() {
              <IntroBounds>
                 <Intro/>
              </IntroBounds>
-        {/* Credentials */}
              <CredentialsBounds>
-
+                <Accordion title="About" content={<Intro/>} />
              </CredentialsBounds>
             </InnerBounds>
         </PageWrapper>
