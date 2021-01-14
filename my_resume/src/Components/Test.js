@@ -5,12 +5,14 @@ import Dribbble from './Assets/Dribbble.svg'
 import Linkedin from './Assets/Linkedin.svg'
 
 const IntroWrap = styled.div`
-    margin: 0px auto;
+    // margin: 0px auto;
     background: #F2C94C;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 `
 
 const Name = styled.p`
@@ -29,7 +31,7 @@ const Name = styled.p`
 const Occupation = styled.p`
     font-family: 'medium';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     color: #828282;
     text-align: center;
     margin-top: 0px;
@@ -89,9 +91,16 @@ const SocialContainer = styled.div`
   }
 `;
 
-function Intro() {
+function Test() {
     return(
         <IntroWrap>
+            <Name>Isaac Gorman</Name>
+            <Occupation>Designer | Studnet</Occupation>
+            <SocialContainer>
+                <GitHubIcon src={Git} alt="nan" /> 
+                <LinkedinIcon src={Linkedin} alt="nan" /> 
+                <DribbbleIcon src={Dribbble} alt="nan" />    
+            </SocialContainer>
             <Name>Isaac Gorman</Name>
             <Occupation>Designer | Studnet</Occupation>
             <SocialContainer>
@@ -103,4 +112,4 @@ function Intro() {
     )
 }
 
-export default Intro;
+export default Test;

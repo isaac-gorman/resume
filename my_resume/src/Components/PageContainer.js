@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import Intro from "./Intro"
+import Test from "./Test"
 import Accordion from "./Credentials/Accordion"
 
 const PageWrapper = styled.div`
@@ -8,18 +9,18 @@ const PageWrapper = styled.div`
     width: 100vw;
     background: #FFF6F6;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
 `;
 
 const InnerBounds = styled.div`
     margin: 0px auto;
-    height: 85vh;
+    height: 94vh;
     width: 85vw;
     background: #FFECEC;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
     @media (min-width: 1024px) {
         flex-direction: row;
@@ -28,9 +29,9 @@ const InnerBounds = styled.div`
 
 const IntroBounds = styled.div`
     margin: 0px auto;
-    height: 35%;
+    height: 32%;
     width: 100%;
-    background: #FFD6D6;
+    background: red;
 
     display: flex;
     flex-direction: column;
@@ -45,9 +46,12 @@ const IntroBounds = styled.div`
 `;
 
 const CredentialsBounds = styled.div`
-    height: 60%;
+    height: 74%;
     width: 100%;
-    background: #56CCF2;
+    background: green;
+
+    overflow: hidden;
+    overflow-y: scroll;
 
     @media (min-width: 1024px) {
         flex-direction: row;
@@ -66,6 +70,11 @@ function PageConatiner() {
                 <Intro/>
              </IntroBounds>
              <CredentialsBounds>
+                <Accordion title="About" content={<Intro/>} />
+                <Accordion title="About" content={<Intro/>} />
+                <Accordion title="Test" content={<Test/>} />
+                <Accordion title="About" content={<Intro/>} />
+                <Accordion title="About" content={<Intro/>} />
                 <Accordion title="About" content={<Intro/>} />
              </CredentialsBounds>
             </InnerBounds>
