@@ -7,7 +7,7 @@ import Accordion from "./Credentials/Accordion"
 const PageWrapper = styled.div`
     height: 100vh;
     width: 100vw;
-    background: #FFF6F6;
+    // background: #FFF6F6;
     display: flex;
     // justify-content: center;
     align-items: center;
@@ -17,13 +17,15 @@ const InnerBounds = styled.div`
     margin: 0px auto;
     height: 94vh;
     width: 85vw;
-    background: #FFECEC;
+    // background: #FFECEC;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
     @media (min-width: 1024px) {
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
       }
 `;
 
@@ -31,7 +33,7 @@ const IntroBounds = styled.div`
     margin: 0px auto;
     height: 32%;
     width: 100%;
-    background: red;
+    // background: red;
 
     display: flex;
     flex-direction: column;
@@ -48,17 +50,35 @@ const IntroBounds = styled.div`
 const CredentialsBounds = styled.div`
     height: 74%;
     width: 100%;
-    background: green;
+    // background: green;
 
-    overflow: hidden;
-    overflow-y: scroll;
+    // overflow: hidden;
+    // overflow-y: scroll;
 
     @media (min-width: 1024px) {
-        flex-direction: row;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
 
-        height: 100%;
+        // height: 74%;
         width: 100%;
-        background: #56CCF2;
+        // background: #56CCF2;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+`;
+
+const DesktopCredentialsBounds = styled.div`
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        // height: 600px;
+        width: 80%;
+        background: green;
       }
 `;
 
@@ -70,12 +90,14 @@ function PageConatiner() {
                 <Intro/>
              </IntroBounds>
              <CredentialsBounds>
+                 {/* <DesktopCredentialsBounds> */}
                 <Accordion title="About" content={<Intro/>} />
                 <Accordion title="About" content={<Intro/>} />
-                <Accordion title="Test" content={<Test/>} />
+                <Accordion title="Test" content={<Intro/>} />
                 <Accordion title="About" content={<Intro/>} />
                 <Accordion title="About" content={<Intro/>} />
                 <Accordion title="About" content={<Intro/>} />
+                 {/* </DesktopCredentialsBounds> */}
              </CredentialsBounds>
             </InnerBounds>
         </PageWrapper>

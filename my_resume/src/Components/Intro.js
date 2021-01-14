@@ -6,7 +6,7 @@ import Linkedin from './Assets/Linkedin.svg'
 
 const IntroWrap = styled.div`
     margin: 0px auto;
-    background: #F2C94C;
+    // background: #F2C94C;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ const SocialContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #FFACAC;
+  // background: #FFACAC;
 
   @media (min-width: 1024px) {
     width: 200px;
