@@ -21,6 +21,7 @@ const InnerBounds = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 
     @media (min-width: 1024px) {
         flex-direction: row;
@@ -47,23 +48,20 @@ const IntroBounds = styled.div`
       }
 `;
 
+const LineBreak = styled.div`
+    width: 100%;
+    height: 0px;
+    border: 0.5px solid #E2E2E2;
+`;
+
 const CredentialsBounds = styled.div`
     height: 74%;
     width: 100%;
-    // background: green;
 
-    // overflow: hidden;
-    // overflow-y: scroll;
 
     @media (min-width: 1024px) {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
-
-        // height: 74%;
         width: 100%;
-        // background: #56CCF2;
+
         overflow: hidden;
         overflow-y: scroll;
       }
@@ -82,6 +80,8 @@ const DesktopCredentialsBounds = styled.div`
       }
 `;
 
+
+
 function PageConatiner() {
     return(
         <PageWrapper>
@@ -91,12 +91,19 @@ function PageConatiner() {
              </IntroBounds>
              <CredentialsBounds>
                  {/* <DesktopCredentialsBounds> */}
+                <LineBreak/>
                 <Accordion title="About" content={<Intro/>} />
-                <Accordion title="About" content={<Intro/>} />
-                <Accordion title="Test" content={<Intro/>} />
-                <Accordion title="About" content={<Intro/>} />
-                <Accordion title="About" content={<Intro/>} />
-                <Accordion title="About" content={<Intro/>} />
+                <LineBreak/>
+                <Accordion title="Projects" content={<Intro/>} />
+                <LineBreak/>
+                <Accordion title="Skills" content={<Intro/>} />
+                <LineBreak/>
+                <Accordion title="Experience" content={<Intro/>} />
+                <LineBreak/>
+                <Accordion title="Education" content={<Intro/>} />
+                <LineBreak/>
+                <Accordion title="Contact" content={<Intro/>} />
+                <LineBreak/>
                  {/* </DesktopCredentialsBounds> */}
              </CredentialsBounds>
             </InnerBounds>
