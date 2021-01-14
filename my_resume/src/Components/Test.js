@@ -11,8 +11,8 @@ const IntroWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 600px;
+    margin-bottom: 600px;
 `
 
 const Name = styled.p`
@@ -94,6 +94,20 @@ const SocialContainer = styled.div`
 function Test() {
     return(
         <IntroWrap>
+            <Name>Isaac Gorman</Name>
+            <Occupation>Designer | Studnet</Occupation>
+            <SocialContainer>
+                <GitHubIcon src={Git} alt="nan" /> 
+                <LinkedinIcon src={Linkedin} alt="nan" /> 
+                <DribbbleIcon src={Dribbble} alt="nan" />    
+            </SocialContainer>
+            <Name>Isaac Gorman</Name>
+            <Occupation>Designer | Studnet</Occupation>
+            <SocialContainer>
+                <GitHubIcon src={Git} alt="nan" /> 
+                <LinkedinIcon src={Linkedin} alt="nan" /> 
+                <DribbbleIcon src={Dribbble} alt="nan" />    
+            </SocialContainer>
             <Name>Isaac Gorman</Name>
             <Occupation>Designer | Studnet</Occupation>
             <SocialContainer>

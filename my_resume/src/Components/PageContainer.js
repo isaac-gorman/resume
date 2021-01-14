@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
 import Intro from "./Intro"
+import About from "./Credentials/About"
+import Projects from "./Credentials/Projects"
 import Test from "./Test"
 import Accordion from "./Credentials/Accordion"
 
@@ -60,6 +62,7 @@ const CredentialsBounds = styled.div`
 
 
     @media (min-width: 1024px) {
+        // height: 100%;
         width: 100%;
 
         overflow: hidden;
@@ -92,9 +95,9 @@ function PageConatiner() {
              <CredentialsBounds>
                  {/* <DesktopCredentialsBounds> */}
                 <LineBreak/>
-                <Accordion title="About" content={<Intro/>} />
+                <Accordion title="About" content={<About/>} />
                 <LineBreak/>
-                <Accordion title="Projects" content={<Intro/>} />
+                <Accordion title="Projects" content={<Projects/>} />
                 <LineBreak/>
                 <Accordion title="Skills" content={<Intro/>} />
                 <LineBreak/>
@@ -102,7 +105,7 @@ function PageConatiner() {
                 <LineBreak/>
                 <Accordion title="Education" content={<Intro/>} />
                 <LineBreak/>
-                <Accordion title="Contact" content={<Intro/>} />
+                <Accordion title="Contact" content={<Test/>} />
                 <LineBreak/>
                  {/* </DesktopCredentialsBounds> */}
              </CredentialsBounds>
