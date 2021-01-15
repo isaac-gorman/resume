@@ -77,7 +77,7 @@ function Skills() {
             </SkillContainer>
 
             <SkillContainer>
-                <SkillCategory>Product Design </SkillCategory>
+                <SkillCategory>Product Design</SkillCategory>
                     <Topic>Tools</Topic>
                     <Content>Figma, Sketch</Content>
                     <Topic>User Experience - UX</Topic>
