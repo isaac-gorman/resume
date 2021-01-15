@@ -95,9 +95,15 @@ function Intro() {
             <Name>Isaac Gorman</Name>
             <Occupation>Designer | Studnet</Occupation>
             <SocialContainer>
+              <a href={"https://github.com/isaac-gorman"} target="_blank">
                 <GitHubIcon src={Git} alt="nan" /> 
+              </a>
+              <a href={"https://www.linkedin.com/in/isaac-m-gorman/"} target="_blank">
                 <LinkedinIcon src={Linkedin} alt="nan" /> 
-                <DribbbleIcon src={Dribbble} alt="nan" />    
+              </a>
+              <a href={"https://dribbble.com/isaacgorman"} target="_blank">
+                <DribbbleIcon src={Dribbble} alt="nan" /> 
+              </a>  
             </SocialContainer>
         </IntroWrap>
     )

@@ -39,7 +39,7 @@ const Year = styled.p`
     text-align: left;
 
     @media (min-width: 1024px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `;
 // ----- Year ---------------------
@@ -69,7 +69,7 @@ const ProjectNameLink = styled.a`
       }
 
     @media (min-width: 1024px) {
-        font-size: 20px;
+        font-size: 16px;
     }
 `;
 
@@ -84,7 +84,7 @@ const ProjectDescription = styled.p`
     margin-bottom: 0px;
 
     @media (min-width: 1024px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `;
 
@@ -106,8 +106,8 @@ function Projects() {
                     <Year>2020</Year>
                 </YearColumn>
                 <ProjectInfo>
-                        <ProjectNameLink>kin cook</ProjectNameLink>
-                        <ProjectDescription>Easiest way to maintain tradition through the dishes you love.</ProjectDescription>
+                        <ProjectNameLink href={"https://github.com/isaac-gorman/medSwap-project"} target="_blank" >medSwap ></ProjectNameLink>
+                        <ProjectDescription>Switch from pharmaceutical drugs to something 100% natural; cannabis. </ProjectDescription>
                 </ProjectInfo>
             </ProjectsContainer>
 
@@ -116,8 +116,8 @@ function Projects() {
                     <Year>2020</Year>
                 </YearColumn>
                 <ProjectInfo>
-                        <ProjectNameLink>kin cook</ProjectNameLink>
-                        <ProjectDescription>Easiest way to maintain tradition through the dishes you love.</ProjectDescription>
+                <ProjectNameLink href={"https://github.com/isaac-gorman/dptLinks"} target="_blank" >dptLinks23 ></ProjectNameLink>
+                        <ProjectDescription>A file cabinet for school links for the the Doctorate of Physical Therapy class of 2023 of the University of Texas Health Science Center at San Antonio. </ProjectDescription>
                 </ProjectInfo>
             </ProjectsContainer>
 

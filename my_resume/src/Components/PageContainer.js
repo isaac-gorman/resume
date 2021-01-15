@@ -98,7 +98,7 @@ function PageConatiner() {
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
                     <LineBreak/>
-                    <Accordion title="About" content={<Projects/>} />
+                    <Accordion title="Projects" content={<Projects/>} />
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
                     <LineBreak/>

@@ -20,7 +20,7 @@ text-align: left;
 margin-bottom: 30px;
 @media (min-width: 1024px) {
     margin-bottom: 43px;
-    font-size: 18px;
+    font-size: 16px;
 }
 `
 
