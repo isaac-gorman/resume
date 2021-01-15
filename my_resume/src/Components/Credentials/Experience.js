@@ -95,24 +95,24 @@ function Experience() {
 
             <ExperienceContainer>
             <Duration>2018 - 2019</Duration>
-                <Title>Growth Manager & Designer at<Link href={"https://www.ridehitch.com/"} target="_blank">Hitch</Link> 
+                <Title>Growth Manager & Designer at<Link  rel="noreferrer" href={"https://www.ridehitch.com/"} target="_blank">Hitch</Link> 
                     </Title>
                     <Impact>Implemented growth campaigns that helped grow the company’s users by over 50% in the early stages of the company</Impact>
                     <Impact>Designed assets for marketing campaigns across several channels </Impact>
                     <Impact>Managed and trained a team of 16 brand ambassadors</Impact>
-                    <Impact>Lead in Design Sprint with <Link href={"https://www.figma.com/file/B0UkdOFq8F80XyWeNJl4wY/Hitch-Brand-Sprint-FunSize.co?node-id=1533%3A389"} target="_blank">FunSize.co</Link>to redesign the brand and mobile app</Impact>
+                    <Impact>Lead in Design Sprint with <Link  rel="noreferrer" href={"https://www.figma.com/file/B0UkdOFq8F80XyWeNJl4wY/Hitch-Brand-Sprint-FunSize.co?node-id=1533%3A389"} target="_blank">FunSize.co</Link>to redesign the brand and mobile app</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
             <Duration>2018</Duration>
-                <Title>Designer at <Link href={"http://etho.io/"} target="_blank">Etho</Link></Title>
+                <Title>Designer at <Link  rel="noreferrer" href={"http://etho.io/"} target="_blank">Etho</Link></Title>
                     <Impact>Designed wireframes for website, and low-fidelity mobile application</Impact>
                     <Impact>Conducted customer interviews for the team’s beta product</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
             <Duration>2017 - 2018</Duration>
-                <Title>Co-Founder & CEO at <Link href={"http://spokerepair.com/"} target="_blank">Spoke</Link></Title>
+                <Title>Co-Founder & CEO at <Link  rel="noreferrer" href={"http://spokerepair.com/"} target="_blank">Spoke</Link></Title>
                     <Impact>Fulfilled over 200 bikes for repair at UT-Austin Campus </Impact>
                     <Impact>Developed partnerships with 4 local bikes shop for delivering and repairing bicycles</Impact>
                     <Impact>Received $1,000 in funding from Capital Factory via the Longhorn Startup Lab</Impact>
@@ -120,7 +120,7 @@ function Experience() {
             </ExperienceContainer>
             <ExperienceContainer>
             <Duration>2017</Duration>
-                <Title>Fellow at<Link href={"https://ugs.utexas.edu/launchpad"} target="_blank">Blackstone Launchpad UT-Austin</Link></Title>
+                <Title>Fellow at<Link  rel="noreferrer" href={"https://ugs.utexas.edu/launchpad"} target="_blank">Blackstone Launchpad UT-Austin</Link></Title>
                     <Impact>Helped students connect, and collaborate to create new businesses</Impact>
                     <Impact>Connected students with resources around campus to help them launch their entrepreneurial ventures</Impact>
                     <Impact>Conducted elevator pitch workshops for students</Impact>
