@@ -77,16 +77,6 @@ const CredentialsBounds = styled.div`
       }
 `;
 
-const DesktopCredentialsBounds = styled.div`
-    @media (min-width: 1024px) {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-      }
-`;
-
 
 function PageConatiner() {
     return(
@@ -95,8 +85,6 @@ function PageConatiner() {
              <IntroBounds>
                 <Intro/>
              </IntroBounds>
-             {/* <DesktopCredentialsBounds> */}
-                {/* <CredentialsHeader/> */}
                 <CredentialsBounds>
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
