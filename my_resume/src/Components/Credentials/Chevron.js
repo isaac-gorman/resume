@@ -5,7 +5,7 @@ function Chevron(props) {
     <svg 
         className={props.className}
         height={props.height}
-        height={props.width}
+        width={props.width}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 284.929 284.929"
      >

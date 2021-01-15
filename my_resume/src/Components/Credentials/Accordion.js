@@ -6,9 +6,6 @@ function Accordion(props) {
     const [setActive, setActiveState ] = useState("");
     const [setHeight, setHeightState] = useState("0px");
     const [setRotate, setRotateState] = useState("accordion__icon");
-    const [accordianSectionHeight, setAccordianSectionHeight] = useState("100px")
-    const [accordianButtonHeight, setAccordianButtonHeight] = useState("100%")
-
     const content = useRef(null)
 
     function toggleAccordian() {
