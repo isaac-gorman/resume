@@ -66,7 +66,7 @@ function Education() {
             <EducationContainer>
             <Duration>2021 - Now</Duration>
                 <Title>Alamo Colleges - San Antonio, Texas</Title>
-                    <Impact>Associates of Science, anticipated double majors in Computer Science and Engineering</Impact>
+                    <Impact>Associates of Science anticipated double majors in Computer Science and Engineering</Impact>
             </EducationContainer>
 
             <EducationContainer>
@@ -78,7 +78,7 @@ function Education() {
             <EducationContainer>
             <Duration>2016 - 2018</Duration>
                 <Title>University of Texas at Austin - Austin, Texas</Title>
-                    <Impact>Pursued degree in Communication and Leadership. Withdrew to pursue work experince</Impact>
+                    <Impact>Pursued degree in Communication and Leadership. Withdrew to pursue work experience</Impact>
             </EducationContainer>
         </EducationWrap>
     )

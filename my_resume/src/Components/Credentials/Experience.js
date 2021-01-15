@@ -70,6 +70,7 @@ const Link = styled.a`
     text-align: left;
     margin-top: 0px;
     margin-bottom: 8px;
+    margin-right: 4px;
     margin-left: 4px;
     &:hover {
         color: #9ab8e9;
@@ -88,19 +89,18 @@ function Experience() {
             <ExperienceContainer>
             <Duration>2021 - Now</Duration>
                 <Title>Designer & Software Engineer at Uno</Title>
-                    <Impact>Creating animations for marketing content</Impact>
-                    <Impact>Creating service calculator for prospective customers on company website</Impact>
-                    <Impact>Implementing Growth Cycle </Impact>
+                    <Impact>Designing animations for marketing content</Impact>
+                    <Impact>Building a service estimate calculator for prospective customers on the company website</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
             <Duration>2018 - 2019</Duration>
                 <Title>Growth Manager & Designer at<Link href={"https://www.ridehitch.com/"} target="_blank">Hitch</Link> 
                     </Title>
-                    <Impact>Implemented growth campaigns that helped grow the company’s users over 50% in the early stages of the company</Impact>
+                    <Impact>Implemented growth campaigns that helped grow the company’s users by over 50% in the early stages of the company</Impact>
                     <Impact>Designed assets for marketing campaigns across several channels </Impact>
                     <Impact>Managed and trained a team of 15 brand ambassadors</Impact>
-                    <Impact>Participated in Design Sprint with FunSize.co redesign the brand</Impact>
+                    <Impact>Participated in Design Sprint with <Link href={"https://www.figma.com/file/B0UkdOFq8F80XyWeNJl4wY/Hitch-Brand-Sprint-FunSize.co?node-id=1533%3A389"} target="_blank">FunSize.co</Link>to redesign the brand and mobile app</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>

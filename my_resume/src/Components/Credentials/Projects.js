@@ -97,7 +97,7 @@ function Projects() {
                 </YearColumn>
                 <ProjectInfo>
                         <ProjectNameLink href={"https://github.com/isaac-gorman/kin-cook"} target="_blank" >kin cook ></ProjectNameLink>
-                        <ProjectDescription>Easiest way to maintain tradition through the dishes you love.</ProjectDescription>
+                        <ProjectDescription>The easiest way to maintain tradition through the dishes you love.</ProjectDescription>
                 </ProjectInfo>
             </ProjectsContainer>
 
@@ -117,7 +117,7 @@ function Projects() {
                 </YearColumn>
                 <ProjectInfo>
                 <ProjectNameLink href={"https://github.com/isaac-gorman/dptLinks"} target="_blank" >dptLinks23 ></ProjectNameLink>
-                        <ProjectDescription>A file cabinet for school links for the the Doctorate of Physical Therapy class of 2023 of the University of Texas Health Science Center at San Antonio. </ProjectDescription>
+                        <ProjectDescription>A file cabinet for school links for the Doctorate of Physical Therapy class of 2023 of the University of Texas Health Science Center at San Antonio. </ProjectDescription>
                 </ProjectInfo>
             </ProjectsContainer>
 
