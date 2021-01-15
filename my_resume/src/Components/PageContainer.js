@@ -11,8 +11,12 @@ const PageWrapper = styled.div`
     width: 100vw;
     // background: #FFF6F6;
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     align-items: center;
+
+    @media (min-width: 1024px) {
+        // flex-direction: column;
+      }
 `;
 
 const InnerBounds = styled.div`
@@ -22,13 +26,13 @@ const InnerBounds = styled.div`
     // background: #FFECEC;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    // justify-content: space-around;
     align-items: center;
 
     @media (min-width: 1024px) {
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-items: center;
       }
 `;
 
@@ -41,12 +45,12 @@ const IntroBounds = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     @media (min-width: 1024px) {
         flex-direction: row;
 
-        height: 100%;
-        width: 100%;
+        height: 80%;
+        width: 50%;
       }
 `;
 
@@ -62,27 +66,23 @@ const CredentialsBounds = styled.div`
 
 
     @media (min-width: 1024px) {
-        // height: 100%;
-        width: 100%;
-
-        overflow: hidden;
-        overflow-y: scroll;
+        height: 70%;
+        width: 50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        // background: blue;
       }
 `;
 
 const DesktopCredentialsBounds = styled.div`
     @media (min-width: 1024px) {
+        width: 50%;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        // height: 600px;
-        width: 80%;
-        background: green;
+        justify-content: space-around;
       }
 `;
-
 
 
 function PageConatiner() {
@@ -92,23 +92,35 @@ function PageConatiner() {
              <IntroBounds>
                 <Intro/>
              </IntroBounds>
-             <CredentialsBounds>
-                 {/* <DesktopCredentialsBounds> */}
-                <LineBreak/>
-                <Accordion title="About" content={<About/>} />
-                <LineBreak/>
-                <Accordion title="Projects" content={<Projects/>} />
-                <LineBreak/>
-                <Accordion title="Skills" content={<Intro/>} />
-                <LineBreak/>
-                <Accordion title="Experience" content={<Intro/>} />
-                <LineBreak/>
-                <Accordion title="Education" content={<Intro/>} />
-                <LineBreak/>
-                <Accordion title="Contact" content={<Test/>} />
-                <LineBreak/>
-                 {/* </DesktopCredentialsBounds> */}
+             {/* <DesktopCredentialsBounds> */}
+                {/* <CredentialsHeader/> */}
+                <CredentialsBounds>
+                    <LineBreak/>
+                    <Accordion title="About" content={<About/>} />
+                    <LineBreak/>
+                    <Accordion title="About" content={<Projects/>} />
+                    <LineBreak/>
+                    <Accordion title="About" content={<About/>} />
+                    <LineBreak/>
+                    <Accordion title="About" content={<About/>} />
+                    <LineBreak/>
+                    <Accordion title="About" content={<About/>} />
+                    <LineBreak/>
+                    <Accordion title="About" content={<About/>} />
+                    <LineBreak/>
+                    {/* <Accordion title="Projects" content={<Projects/>} />
+                    <LineBreak/>
+                    <Accordion title="Skills" content={<Intro/>} />
+                    <LineBreak/>
+                    <Accordion title="Experience" content={<Intro/>} />
+                    <LineBreak/>
+                    <Accordion title="Education" content={<Intro/>} />
+                    <LineBreak/>
+                    <Accordion title="Contact" content={<Test/>} />
+                    <LineBreak/> */}
              </CredentialsBounds>
+             {/* <CredentialsFooter/> */}
+             {/* </DesktopCredentialsBounds> */}
             </InnerBounds>
         </PageWrapper>
     )
