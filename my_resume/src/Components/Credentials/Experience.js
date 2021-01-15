@@ -61,8 +61,25 @@ const Impact = styled.p`
     }
 `
 const Link = styled.a`
-    text-decoration: none;
-    color: blue;
+    // text-decoration: none;
+    font-family: 'light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    &:hover {
+        color: #9ab8e9;
+      }
+      &:active {
+        color: #144ba6;
+      }
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
 `
 
 function Experience() {
@@ -78,8 +95,7 @@ function Experience() {
 
             <ExperienceContainer>
             <Duration>2018 - 2019</Duration>
-                <Title>Growth Manager & Designer at 
-                     <Link href={"https://www.ridehitch.com/"} target="_blank" >  Hitch</Link> 
+                <Title>Growth Manager & Designer at<Link href={"https://www.ridehitch.com/"} target="_blank">Hitch</Link> 
                     </Title>
                     <Impact>Implemented growth campaigns that helped grow the company’s users over 50% in the early stages of the company</Impact>
                     <Impact>Designed assets for marketing campaigns across several channels </Impact>
@@ -89,23 +105,22 @@ function Experience() {
 
             <ExperienceContainer>
             <Duration>2018</Duration>
-                <Title>Designer at Etho</Title>
+                <Title>Designer at <Link href={"http://etho.io/"} target="_blank">Etho</Link></Title>
                     <Impact>Designed wireframes for website, and low-fidelity mobile application</Impact>
                     <Impact>Conducted customer interviews for the team’s beta product</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
             <Duration>2017 - 2018</Duration>
-                <Title>Co-Founder & CEO at Spoke</Title>
+                <Title>Co-Founder & CEO at <Link href={"http://spokerepair.com/"} target="_blank">Spoke</Link></Title>
                     <Impact>Fulfilled over 200 bikes for repair at UT-Austin Campus </Impact>
                     <Impact>Developed partnerships with 4 local bikes shop for delivering and repairing bicycles</Impact>
                     <Impact>Received $1,000 in funding from Capital Factory via the Longhorn Startup Lab</Impact>
                     <Impact>Designed an app that enabled bike mechanics to track bicycle repairs via QR codes, to optimize the time spent filling out work orders</Impact>
             </ExperienceContainer>
-
             <ExperienceContainer>
             <Duration>2017</Duration>
-                <Title>Blackstone Launchpad Fellowship at University of Texas at Austin</Title>
+                <Title>Fellow at<Link href={"https://ugs.utexas.edu/launchpad"} target="_blank">Blackstone Launchpad UT-Austin</Link></Title>
                     <Impact>Helped students connect, and collaborate to create new businesses</Impact>
                     <Impact>Connected students with resources around campus to help them launch their entrepreneurial ventures</Impact>
                     <Impact>Conducted elevator pitch workshops for students</Impact>

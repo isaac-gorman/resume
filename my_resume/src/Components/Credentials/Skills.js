@@ -41,7 +41,7 @@ const Topic = styled.p`
     text-align: left;
     margin-top: 0px;
     margin-bottom: 4px;
-    margin-left: 14px;
+    // margin-left: 14px;
         @media (min-width: 1024px) {
         font-size: 16px;
     }
@@ -54,8 +54,8 @@ const Content = styled.p`
     color: #4F4F4F;
     text-align: left;
     margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 18px;
+    // margin-bottom: 20px;
+    // margin-left: 18px;
         @media (min-width: 1024px) {
         font-size: 16px;
     }
