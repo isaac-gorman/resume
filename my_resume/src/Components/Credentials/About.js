@@ -29,7 +29,7 @@ function About() {
     return (
         <AboutWrapper>
             <Text>
-            I'm a full-stack designer who loves to bring new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how services design could be innovated through software development, so I switched over.
+            I'm a full-stack designer who loves to bring new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over.
             </Text>
             <Text>
             Previously, Growth Manager and Designer at Hitch. Currently, a Computer Science student living in central Texas.
