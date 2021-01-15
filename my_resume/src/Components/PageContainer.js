@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Intro from "./Intro"
 import About from "./Credentials/About"
 import Projects from "./Credentials/Projects"
-import Test from "./Test"
+import Skills from "./Credentials/Skills"
 import Accordion from "./Credentials/Accordion"
 
 const PageWrapper = styled.div`
@@ -100,7 +100,7 @@ function PageConatiner() {
                     <LineBreak/>
                     <Accordion title="Projects" content={<Projects/>} />
                     <LineBreak/>
-                    <Accordion title="About" content={<About/>} />
+                    <Accordion title="Skills" content={<Skills/>} />
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
                     <LineBreak/>
@@ -108,19 +108,7 @@ function PageConatiner() {
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
                     <LineBreak/>
-                    {/* <Accordion title="Projects" content={<Projects/>} />
-                    <LineBreak/>
-                    <Accordion title="Skills" content={<Intro/>} />
-                    <LineBreak/>
-                    <Accordion title="Experience" content={<Intro/>} />
-                    <LineBreak/>
-                    <Accordion title="Education" content={<Intro/>} />
-                    <LineBreak/>
-                    <Accordion title="Contact" content={<Test/>} />
-                    <LineBreak/> */}
              </CredentialsBounds>
-             {/* <CredentialsFooter/> */}
-             {/* </DesktopCredentialsBounds> */}
             </InnerBounds>
         </PageWrapper>
     )
