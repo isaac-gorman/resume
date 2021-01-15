@@ -5,6 +5,7 @@ import About from "./Credentials/About"
 import Projects from "./Credentials/Projects"
 import Skills from "./Credentials/Skills"
 import Experience from "./Credentials/Experience"
+import Education from "./Credentials/Education"
 import Accordion from "./Credentials/Accordion"
 
 const PageWrapper = styled.div`
@@ -105,7 +106,7 @@ function PageConatiner() {
                     <LineBreak/>
                     <Accordion title="Experience" content={<Experience/>} />
                     <LineBreak/>
-                    <Accordion title="About" content={<About/>} />
+                    <Accordion title="Education" content={<Education/>} />
                     <LineBreak/>
                     <Accordion title="About" content={<About/>} />
                     <LineBreak/>
