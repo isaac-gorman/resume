@@ -32,7 +32,7 @@ function About() {
             I'm a full-stack designer who loves to bring new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over.
             </Text>
             <Text>
-            Previously,I was Growth Manager and Designer at Hitch. Currently I am a Computer Science and Engineering student living in central Texas.
+            Previously I was Growth Manager and Designer at Hitch. Currently I am a Computer Science and Engineering student living in central Texas.
             </Text>
 
             <Text>
