@@ -89,7 +89,7 @@ function Experience() {
             <ExperienceContainer>
             <Duration>2021 - Now</Duration>
                 <Title>Designer & Software Engineer at Uno</Title>
-                    <Impact>Designing animations for marketing content</Impact>
+                    <Impact>Creating animations for marketing content</Impact>
                     <Impact>Building a service estimate calculator for prospective customers on the company website</Impact>
             </ExperienceContainer>
 
