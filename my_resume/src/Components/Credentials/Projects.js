@@ -106,7 +106,7 @@ function Projects() {
                     <Year>2020</Year>
                 </YearColumn>
                 <ProjectInfo>
-                        <ProjectNameLink rel="noreferrer" href={"https://github.com/isaac-gorman/medSwap-project"} target="_blank" >medSwap</ProjectNameLink>
+                        <ProjectNameLink rel="noreferrer" href={"https://github.com/isaac-gorman/medSwap"} target="_blank" >medSwap</ProjectNameLink>
                         <ProjectDescription>Switch from pharmaceutical drugs to something 100% natural; cannabis. </ProjectDescription>
                 </ProjectInfo>
             </ProjectsContainer>
