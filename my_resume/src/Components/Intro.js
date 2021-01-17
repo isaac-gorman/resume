@@ -93,7 +93,7 @@ function Intro() {
     return(
         <IntroWrap>
             <Name>Isaac Gorman</Name>
-            <Occupation>Designer | Student</Occupation>
+            <Occupation>Designer | Developer</Occupation>
             <SocialContainer>
               <a rel="noreferrer" href={"https://github.com/isaac-gorman"} target="_blank">
                 <GitHubIcon src={Git} alt="nan" /> 
