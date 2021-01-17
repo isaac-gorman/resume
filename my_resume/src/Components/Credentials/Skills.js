@@ -95,6 +95,14 @@ function Skills() {
                     <Topic>Capabilities</Topic>
                     <Content>Illustrations, Logo, and Marketing Assets, Animated Loops</Content>
             </SkillContainer>
+        
+            <SkillContainer>
+                <SkillCategory>Bilingual</SkillCategory>
+                    <Topic>Fluent Languages</Topic>
+                    <Content>Spanish, English</Content>
+                    <Topic>Capabilities</Topic>
+                    <Content>Translation, Read/Write in both languages</Content>
+            </SkillContainer>
         </SkillsWrap>
     )
 }
