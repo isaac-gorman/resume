@@ -45,10 +45,10 @@ function About() {
                 Seeking software engineering internships for Summer 2021.
             </Objective>
             <Text>
-                I'm a full-stack designer who loves to bring new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over.
+                I'm a full-stack designer who is passionate about bringing new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over.
             </Text>
             <Text>
-                Previously I was a Growth Manager and Designer at Hitch. Currently, I am a Computer Science and Engineering student living in central Texas. Outside of tech I used to play college football, and still fulfill my passion for competing in CrossFit.
+                Previously I was a Growth Manager and Designer at Hitch. Currently, I am a Computer Science and Engineering student living in central Texas. Outside of tech I used to play college football, and still fulfill my desire to compete in CrossFit.
             </Text>
         </AboutWrapper>
     );
