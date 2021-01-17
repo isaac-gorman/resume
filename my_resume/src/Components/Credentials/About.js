@@ -24,13 +24,26 @@ margin-bottom: 30px;
 }
 `
 
+const Objective = styled.p`
+margin-top: 0px;
+margin-bottom: 43px;
+font-family: 'medium';
+font-weight: normal;
+color: #4F4F4F;
+font-size: 14px;
+text-align: left;
+margin-bottom: 5px;
+@media (min-width: 1024px) {
+    font-size: 16px;
+}
+`
 
 function About() { 
     return (
         <AboutWrapper>
-            <Text>
+            <Objective>
                 Seeking software engineering internships for Summer 2021.
-            <Text/>
+            </Objective>
             <Text>
                 I'm a full-stack designer who loves to bring new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over.
             </Text>
