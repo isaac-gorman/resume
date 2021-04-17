@@ -108,6 +108,7 @@ function Experience() {
             <ExperienceContainer>
             <Duration>2017 - 2018</Duration>
                 <Title>Co-Founder & CEO at <Link  rel="noreferrer" href={"http://spokerepair.com/"} target="_blank">Spoke</Link></Title>
+                    <Impact>Spoke was an on-demand bicycle pickup & repair service I founded as a student at UT-Austin. Some of the milestones of the business are as follows:</Impact>
                     <Impact>Fulfilled over 200 bikes for repair at UT-Austin Campus </Impact>
                     <Impact>Developed partnerships with 4 local bikes shop for delivering and repairing bicycles</Impact>
                     <Impact>Received $1,000 in funding from Capital Factory via the Longhorn Startup Lab</Impact>
@@ -116,6 +117,7 @@ function Experience() {
             <ExperienceContainer>
             <Duration>2017</Duration>
                 <Title>Fellow at<Link  rel="noreferrer" href={"https://ugs.utexas.edu/launchpad"} target="_blank">Blackstone Launchpad UT-Austin</Link></Title>
+                    <Impact>The LaunchPad” is a program that helps students of all backgrounds navigate and explore entrepreneurship at UT. My responsibilities were as follows:</Impact>
                     <Impact>Helped students connect, and collaborate to create new businesses</Impact>
                     <Impact>Connected students with resources around campus to help them launch their entrepreneurial ventures</Impact>
                     <Impact>Conducted elevator pitch workshops for students</Impact>
