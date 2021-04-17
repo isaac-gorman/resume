@@ -100,8 +100,9 @@ function Experience() {
             <ExperienceContainer>
             <Duration>2018</Duration>
                 <Title>Designer at <Link  rel="noreferrer" href={"http://etho.io/"} target="_blank">Etho</Link></Title>
-                    <Impact>Designed wireframes for website, and low-fidelity mobile application</Impact>
-                    <Impact>Conducted customer interviews for the team’s beta product</Impact>
+                    <Impact>Etho.io is the all-in-one augmented reality voice command assistant for motorcycle riders. While at Etho I focused mostly on redesigning the website and mobile app. My work included: </Impact>
+                    <Impact>Designing wireframes for our website, and low-fidelity mock-ups for our mobile application.</Impact>
+                    <Impact>Conducting customer interviews for the team’s beta product.</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
