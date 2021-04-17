@@ -67,7 +67,7 @@ function Skills() {
             <SkillContainer>
                 <SkillCategory>Software Engineering</SkillCategory>
                     <Topic>Languages</Topic>
-                    <Content>JavaScript, SQL, HTML, CSS, GraphQL, Java, Python</Content>
+                    <Content>JavaScript, SQL, HTML, CSS, GraphQL, Java</Content>
                     <Topic>Libraries</Topic>
                     <Content>React.js, Node.js, Express</Content>
                     <Topic>State Management</Topic>
