@@ -66,7 +66,7 @@ function Education() {
             <EducationContainer>
             <Duration>2021 - Now</Duration>
                 <Title>Alamo Colleges - San Antonio, Texas</Title>
-                    <Impact>Associate of Science anticipated double majors in Computer Science and Engineering</Impact>
+                    <Impact>I plan on obtaining an Associate of Science in Computer Science and Engineering. Long-term, my goal is to transfer to a 4-year university to major in Computer Science and Engineering Physics.</Impact>
             </EducationContainer>
 
             <EducationContainer>
