@@ -66,7 +66,7 @@ function Education() {
             <EducationContainer>
             <Duration>2021 - Now</Duration>
                 <Title>Alamo Colleges - San Antonio, Texas</Title>
-                    <Impact>Associates of Science anticipated double majors in Computer Science and Engineering</Impact>
+                    <Impact>Associate of Science anticipated double majors in Computer Science and Engineering</Impact>
             </EducationContainer>
 
             <EducationContainer>
