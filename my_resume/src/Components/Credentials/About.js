@@ -42,7 +42,7 @@ function About() {
     return (
         <AboutWrapper>
             <Objective>
-                Seeking software engineering internships for Summer 2021
+               Seeking experience as a software engineer and or UX - designer
             </Objective>
             <Text>
                 I'm a full-stack designer who is passionate about bringing new product ideas to life from development to marketing. I naturally enjoy design but have become an engineer by necessity. I’ve worked for startups in design and growth roles. I fell in love with how service design could be innovated through software development, so I switched over. In parallel with my commitment to work on products, I derive from my experience as a college athlete and competing in CrossFit when it comes to, coachability, and working with teams.
