@@ -72,7 +72,7 @@ function Education() {
             <EducationContainer>
             <Duration>2019 - 2020</Duration>
                 <Title>Lambda School - Remote </Title>
-                    <Impact>Completed Program for UX Design and Full Stack Web Development</Impact>
+                    <Impact>Studied UX Design and Full Stack Web Development.</Impact>
             </EducationContainer>
 
             <EducationContainer>
