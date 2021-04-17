@@ -109,10 +109,10 @@ function Experience() {
             <Duration>2017 - 2018</Duration>
                 <Title>Co-Founder & CEO at <Link  rel="noreferrer" href={"http://spokerepair.com/"} target="_blank">Spoke</Link></Title>
                     <Impact>Spoke was an on-demand bicycle pickup & repair service I founded as a student at UT-Austin. Some of the milestones of the business are as follows:</Impact>
-                    <Impact>Fulfilled over 200 bikes for repair at UT-Austin Campus </Impact>
-                    <Impact>Developed partnerships with 4 local bikes shop for delivering and repairing bicycles</Impact>
-                    <Impact>Received $1,000 in funding from Capital Factory via the Longhorn Startup Lab</Impact>
-                    <Impact>Designed an app that enabled bike mechanics to track bicycle repairs via QR codes, to optimize the time spent filling out work orders</Impact>
+                    <Impact>Fulfilled over 200 bikes for repair at UT-Austin Campus. </Impact>
+                    <Impact>Developed partnerships with 4 local bikes shop for delivering and repairing bicycles.</Impact>
+                    <Impact>Received $1,000 in funding from Capital Factory via the Longhorn Startup Lab.</Impact>
+                    <Impact>Designed an app that enabled bike mechanics to track bicycle repairs via QR codes, to optimize the time spent filling out work orders.</Impact>
             </ExperienceContainer>
             <ExperienceContainer>
             <Duration>2017</Duration>
