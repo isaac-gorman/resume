@@ -118,9 +118,9 @@ function Experience() {
             <Duration>2017</Duration>
                 <Title>Fellow at<Link  rel="noreferrer" href={"https://ugs.utexas.edu/launchpad"} target="_blank">Blackstone Launchpad UT-Austin</Link></Title>
                     <Impact>The LaunchPad” is a program that helps students of all backgrounds navigate and explore entrepreneurship at UT. My responsibilities were as follows:</Impact>
-                    <Impact>Helped students connect, and collaborate to create new businesses</Impact>
-                    <Impact>Connected students with resources around campus to help them launch their entrepreneurial ventures</Impact>
-                    <Impact>Conducted elevator pitch workshops for students</Impact>
+                    <Impact>Helped students connect, and collaborate to create new businesses.</Impact>
+                    <Impact>Connected students with resources around campus to help them launch their entrepreneurial ventures.</Impact>
+                    <Impact>Conducted elevator pitch workshops for students.</Impact>
             </ExperienceContainer>
         </ExperienceWrap>
     )
