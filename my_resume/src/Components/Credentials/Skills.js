@@ -89,11 +89,11 @@ function Skills() {
             </SkillContainer>
 
             <SkillContainer>
-                <SkillCategory>Graphic / Motion Design </SkillCategory>
+                <SkillCategory>Graphic Design / Illustration </SkillCategory>
                     <Topic>Tools</Topic>
-                    <Content>Adobe Illustrator, After Effects, Procreate</Content>
+                    <Content>Adobe Illustrator, Procreate</Content>
                     <Topic>Capabilities</Topic>
-                    <Content>Illustrations, Logo, and Marketing Assets, Animated Loops</Content>
+                    <Content>Illustrations, Logos, and Marketing Assets</Content>
             </SkillContainer>
         
             <SkillContainer>
