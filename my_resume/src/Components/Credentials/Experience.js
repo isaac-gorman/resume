@@ -94,7 +94,7 @@ function Experience() {
                     <Impact>Implementing growth campaigns that helped grow the company’s users by over 50% in the early stages of the company.</Impact>
                     <Impact>Designed assets for marketing campaigns across several channels.</Impact>
                     <Impact>Managed and trained a team of 16 brand ambassadors.</Impact>
-                    <Impact>Lead the Hitch team in a design sprint with <Link  rel="noreferrer" href={"https://www.figma.com/file/B0UkdOFq8F80XyWeNJl4wY/Hitch-Brand-Sprint-FunSize.co?node-id=1533%3A389"} target="_blank">FunSize.co</Link>to redesign the brand and mobile app.</Impact>
+                    <Impact>Worked the Hitch team with <Link  rel="noreferrer" href={"https://www.figma.com/file/B0UkdOFq8F80XyWeNJl4wY/Hitch-Brand-Sprint-FunSize.co?node-id=1533%3A389"} target="_blank">FunSize.co</Link>to redesign the brand and mobile app.</Impact>
             </ExperienceContainer>
 
             <ExperienceContainer>
