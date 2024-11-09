@@ -78,7 +78,7 @@ function Education() {
             <EducationContainer>
             <Duration>2016 - 2018</Duration>
                 <Title>University of Texas at Austin - Austin, Texas</Title>
-                    <Impact>Pursued degree in Communication and Leadership. Withdrew to pursue work experience.</Impact>
+                    <Impact>Pursued degree in Physics. Withdrew to pursue work experience.</Impact>
             </EducationContainer>
         </EducationWrap>
     )
